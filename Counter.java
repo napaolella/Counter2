@@ -21,4 +21,20 @@ public class Counter {
 	{
 		ticks++;
 	}
+	
+	public void unClick()
+	{
+		ticks--;
+	}
+	
+	public int getClicks()
+	{
+		return ticks;
+	}
+	
+	public void reset()
+	{
+		ticks = 0;
+	}
+	
 }
